@@ -7,8 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "ghPages": "ng build --configuration production --base-href https://rahneverd.github.io/ng-weather-app-01/"
-    
+    "ghPages": "ng build --output-path docs --configuration production --base-href /ng-weather-app-01/"
   },
   "private": true,
   "dependencies": {
